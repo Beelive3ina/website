@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:wght@200;500&family=Raleway:wght@200;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.landing {
+    height: calc(100vh - 100px);
+    width: 100%;
+
+    background-color: #E2CE56;
+    display: flex;
+    flex-direction: row;
+}
+.landing .logo {
+    height: 80px;
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+}
+.landing .left,
+.landing .right {
+    height: 100vh;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.landing .left .content {
+    width: 64%;
+    height: 40vh;
+    transform: translateX(16%);
+
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+.landing .left .content .title {
+    height: 30%;
+
+    font-size: 340%;
+    font-weight: 500;
+}
+.landing .left .content .description {
+    height: 80%;
+
+    font-size: 200%;
+    font-weight: 200;
+}
+
+.landing .right img {
+    height: 50vh;
+    transform: translateX(-20px);
+}
+
+
+.main {
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+
+    background-color: #E2CE56;
+    display: flex;
+    justify-content: center;
+}
+.main .foto1 {
+    width: 60%;
+}
