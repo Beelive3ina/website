@@ -76,7 +76,8 @@ body {
     font-size: 220%;
     font-weight: 300;
 }
-.landing .content img {
+.landing .content img
+ {
     width: 56vh;
 }
 
@@ -143,7 +144,43 @@ body {
     font-weight: 300;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
+    .alert {
+        height: 100vh;
+        width: 100vw;
+        background: #E1CC51;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins';
+    }
+    .alert .text {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .alert .text .titolo {
+        font-size: 180%;
+        font-weight: 300;
+        color: white;
+    }
+    .alert .text .descrizione {
+        font-size: 100%;
+        font-weight: 300;
+        color: white;
+    }
+    .alert .text button {
+        font-size: 120%;
+        background-color: #373737;
+        padding: 5px;
+        border: 0 solid;
+        color: white;
+        margin-top: 12px;
+        width: auto;
+    }
     .logo {
         height: 8vh;
 
